@@ -7,8 +7,9 @@ We will be creating 2 lambda functions.
 1. The first using the `callback` param
 2. The second using ES6 `async/await`
 
-- [Lesson Steps](#lesson-steps)
-- [Complete code](#complete-code)
+- [Deploying Your First Endpoint](#deploying-your-first-endpoint)
+  - [Lesson Steps](#lesson-steps)
+  - [Complete code](#complete-code)
 
 ## Lesson Steps
 
@@ -29,7 +30,7 @@ We will be creating 2 lambda functions.
     Open your terminal and run the following command:
 
     ```bash
-    netlify init --manual
+       netlify init --manual
     ```
 
     Choose "create & configure a new site", then add a site name or hit enter for one to be generated for you.

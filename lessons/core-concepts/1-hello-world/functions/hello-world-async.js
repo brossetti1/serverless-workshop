@@ -9,6 +9,13 @@ exports.handler = async (event, context) => {
 
     Remember this is an `async` function and we don't need to use the `callback` to return the response
   */
-  const response = {}
-  return response
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      calculation: 2 * Math.random(),
+      event: event,
+      context: context
+    })
+  }
+  return await response
 }

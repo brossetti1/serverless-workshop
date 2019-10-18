@@ -6,6 +6,8 @@ exports.handler = (event, context, callback) => {
 
     For more details, see the [docs](https://bit.ly/2uEFyKU)
   */
-  const response = {}
-  return callback(null, response)
+  return callback(null, {
+    statusCode: 200,
+    body: JSON.stringify('success')
+  })
 }
