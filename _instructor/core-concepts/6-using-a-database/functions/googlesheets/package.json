@@ -5,6 +5,6 @@
   "author": "David Wells",
   "license": "MIT",
   "dependencies": {
-    "googleapis": "^38.0.0"
+    "googleapis": "^59.0.0"
   }
 }
